@@ -8,6 +8,7 @@ fastify.register(require('fastify-swagger'), {
         info: {title: 'fastify-api'}
     },
 })
+
 fastify.register(require('./routes/itemRoutes'))
 
 const start = async () => {
